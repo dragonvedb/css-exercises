@@ -1,8 +1,19 @@
 .odd {
     background-color: rgb(240, 108, 96);
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
 .cool {
     font-size: 36px;
+}
+
+#one-stood {
+    color: blue;
+    font-size: 36px;
+}
+
+#another-stood {
+    background-color: rgb(100, 255, 120);
+    font-size: 24px;
+    font-weight: bold;
 }
