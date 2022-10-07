@@ -21,12 +21,27 @@ body {
 .footer {
   background-color: #eeeeee;
   justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .content {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 16px;
+}
+
+ul a {
+  text-decoration: none;
+  color:gray
 }
 
 img {
