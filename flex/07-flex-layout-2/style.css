@@ -47,6 +47,10 @@ body {
   list-style-type: none;
 }
 
+.sidebar li {
+  margin-bottom: 16px;
+}
+
 .sidebar a {
   font-size: 24px;
   color: white;
