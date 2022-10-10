@@ -38,6 +38,20 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+
+  flex: 0 0 auto;
+  padding: 16px 16px 16px 0px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .cards-section {
