@@ -62,6 +62,12 @@
   background-color: #FF7755;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
